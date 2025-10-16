@@ -379,7 +379,7 @@ const Index = () => {
               </CardHeader>
               <CardContent className="pt-8 pb-8">
                 <div className="text-center mb-8">
-                  <div className="text-6xl font-black gradient-text mb-2">20 000 ₽</div>
+                  <div className="text-6xl font-black gradient-text mb-2">10 000 ₽</div>
                   <div className="text-gray-600">в месяц</div>
                 </div>
                 <ul className="space-y-4 mb-8">
