@@ -418,7 +418,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="relative h-80 rounded-2xl overflow-hidden group cursor-pointer">
               <img 
-                src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/47e7d04e-3603-4c9b-be93-f04895697441.jpg"
+                src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/2a53ba5f-9a10-4338-88c3-e8b84ffc3765.jpg"
                 alt="Dance Class"
                 className="w-full h-full object-cover transition-transform group-hover:scale-110"
               />
@@ -428,14 +428,14 @@ const Index = () => {
             </div>
             <div className="relative h-80 rounded-2xl overflow-hidden group cursor-pointer">
               <img 
-                src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/0550b66a-bf6a-4886-bfe7-56c53fe0412e.jpg"
+                src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/678ae7a6-472a-4ba3-9226-573f0cb4aff1.jpg"
                 alt="Dance Group"
                 className="w-full h-full object-cover transition-transform group-hover:scale-110"
               />
             </div>
             <div className="relative h-80 rounded-2xl overflow-hidden group cursor-pointer">
               <img 
-                src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/32aea2dd-e13d-4f3a-bc1b-c4853a70e4df.jpg"
+                src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/d6a8fccd-cc56-4444-8699-3c1431f64312.jpg"
                 alt="Teacher"
                 className="w-full h-full object-cover transition-transform group-hover:scale-110"
               />
