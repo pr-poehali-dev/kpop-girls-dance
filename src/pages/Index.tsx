@@ -162,7 +162,7 @@ const Index = () => {
             <Card className="border-2 border-primary overflow-hidden">
               <div className="relative h-80">
                 <img 
-                  src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/32aea2dd-e13d-4f3a-bc1b-c4853a70e4df.jpg"
+                  src="https://cdn.poehali.dev/files/e8ad7870-200a-45f3-a872-643e2c4a858c.jpeg"
                   alt="Михайлова Айалена Айааловна"
                   className="w-full h-full object-cover"
                 />
