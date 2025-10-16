@@ -351,11 +351,11 @@ const Index = () => {
       <section id="teachers" className="py-20 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl mb-4 gradient-text font-black">Наши преподаватели</h2>
+            <h2 className="text-5xl mb-4 gradient-text font-black kpop-text-shadow">Наши преподаватели</h2>
             <p className="text-xl text-gray-600">Профессионалы своего дела</p>
           </div>
-          <div className="max-w-2xl mx-auto">
-            <Card className="border-2 border-primary overflow-hidden">
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="border-2 border-primary overflow-hidden hover:shadow-2xl transition-all hover:-translate-y-2 neon-border">
               <div className="relative h-80">
                 <img 
                   src="https://cdn.poehali.dev/files/e8ad7870-200a-45f3-a872-643e2c4a858c.jpeg"
@@ -365,21 +365,79 @@ const Index = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               </div>
               <CardHeader>
-                <CardTitle className="text-3xl gradient-text">Михайлова Айалена Айааловна</CardTitle>
-                <CardDescription className="text-lg">Руководитель и главный хореограф</CardDescription>
+                <CardTitle className="text-2xl gradient-text">Михайлова Айалена Айааловна</CardTitle>
+                <CardDescription className="text-base">Руководитель и главный хореограф</CardDescription>
               </CardHeader>
-              <CardContent className="space-y-4">
+              <CardContent className="space-y-3">
                 <div className="flex items-center gap-3">
-                  <Icon name="Award" className="text-primary" size={24} />
-                  <span>Мастер  по K-POP танцам</span>
+                  <Icon name="Award" className="text-primary" size={20} />
+                  <span className="text-sm">Мастер по K-POP танцам</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Icon name="Music" className="text-primary" size={24} />
-                  <span>Специализация: K-Pop хореография</span>
+                  <Icon name="Music" className="text-primary" size={20} />
+                  <span className="text-sm">K-Pop хореография</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Icon name="Users" className="text-primary" size={24} />
-                  <span>Более 30 выпускниц</span>
+                  <Icon name="Users" className="text-primary" size={20} />
+                  <span className="text-sm">Более 30 выпускниц</span>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-secondary overflow-hidden hover:shadow-2xl transition-all hover:-translate-y-2 neon-border">
+              <div className="relative h-80">
+                <img 
+                  src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/678ae7a6-472a-4ba3-9226-573f0cb4aff1.jpg"
+                  alt="Преподаватель K-POP"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+              </div>
+              <CardHeader>
+                <CardTitle className="text-2xl gradient-text">Ким Мин Джи</CardTitle>
+                <CardDescription className="text-base">Хореограф K-POP направления</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                <div className="flex items-center gap-3">
+                  <Icon name="Star" className="text-secondary" size={20} />
+                  <span className="text-sm">5 лет опыта в K-POP</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Icon name="Music" className="text-secondary" size={20} />
+                  <span className="text-sm">BLACKPINK, TWICE cover</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Icon name="Trophy" className="text-secondary" size={20} />
+                  <span className="text-sm">Победитель dance battle</span>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-accent overflow-hidden hover:shadow-2xl transition-all hover:-translate-y-2 neon-border">
+              <div className="relative h-80">
+                <img 
+                  src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/2a53ba5f-9a10-4338-88c3-e8b84ffc3765.jpg"
+                  alt="Преподаватель K-POP"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+              </div>
+              <CardHeader>
+                <CardTitle className="text-2xl gradient-text">Пак Со Ён</CardTitle>
+                <CardDescription className="text-base">Хореограф-постановщик</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                <div className="flex items-center gap-3">
+                  <Icon name="Sparkles" className="text-accent" size={20} />
+                  <span className="text-sm">Эксперт по girl crush</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Icon name="Music" className="text-accent" size={20} />
+                  <span className="text-sm">AESPA, IVE, NewJeans</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Icon name="Heart" className="text-accent" size={20} />
+                  <span className="text-sm">200+ учениц</span>
                 </div>
               </CardContent>
             </Card>
