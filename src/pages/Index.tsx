@@ -183,7 +183,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <Icon name="Users" className="text-primary" size={24} />
-                  <span>Более 100 выпускниц</span>
+                  <span>Более 30 выпускниц</span>
                 </div>
               </CardContent>
             </Card>
