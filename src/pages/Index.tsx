@@ -93,7 +93,7 @@ const Index = () => {
               </div>
               <div className="flex gap-8 pt-4">
                 <div>
-                  <div className="text-4xl font-black gradient-text">5+</div>
+                  <div className="text-4xl font-black gradient-text">2+</div>
                   <div className="text-sm text-gray-600">Лет опыта</div>
                 </div>
                 <div>
