@@ -155,7 +155,7 @@ const Index = () => {
       <section id="teachers" className="py-20 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-black mb-4 gradient-text">Наши преподаватели</h2>
+            <h2 className="text-5xl mb-4 gradient-text font-black">Наши преподаватели</h2>
             <p className="text-xl text-gray-600">Профессионалы своего дела</p>
           </div>
           <div className="max-w-2xl mx-auto">
