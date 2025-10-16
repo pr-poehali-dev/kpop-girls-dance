@@ -34,8 +34,8 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-cyan-50">
-      <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
+    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-cyan-50 overflow-x-hidden">
+      <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-xl z-50 shadow-lg border-b-2 border-primary/20 kpop-glow">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img 
@@ -43,7 +43,7 @@ const Index = () => {
               alt="AYA Logo" 
               className="w-12 h-12 object-contain"
             />
-            <span className="text-2xl font-bold gradient-text">K-POP GIRLS DANCE</span>
+            <span className="text-2xl font-bold gradient-text kpop-text-shadow">K-POP GIRLS DANCE</span>
           </div>
           <div className="hidden md:flex gap-6">
             <a href="#home" className="text-sm font-medium hover:text-primary transition-colors">Главная</a>
@@ -53,7 +53,7 @@ const Index = () => {
             <a href="#gallery" className="text-sm font-medium hover:text-primary transition-colors">Галерея</a>
             <a href="#contacts" className="text-sm font-medium hover:text-primary transition-colors">Контакты</a>
           </div>
-          <Button className="hidden md:block gradient-pink-purple text-white border-0">
+          <Button className="hidden md:block gradient-pink-purple text-white border-0 kpop-glow hover:scale-105 transition-transform">
             Записаться
           </Button>
         </div>
@@ -67,13 +67,13 @@ const Index = () => {
                 <img 
                   src="https://cdn.poehali.dev/files/f4d986e4-8ffe-4745-bd23-95ccf4253271.png" 
                   alt="AYA Logo" 
-                  className="w-32 h-32 object-contain"
+                  className="w-32 h-32 object-contain animate-float"
                 />
               </div>
               <h1 className="text-6xl md:text-7xl font-black leading-tight">
-                <span className="gradient-text">K-POP GIRLS</span>
+                <span className="gradient-text kpop-text-shadow">K-POP GIRLS</span>
                 <br />
-                <span className="text-gray-900">DANCE</span>
+                <span className="text-gray-900 kpop-text-shadow">DANCE</span>
               </h1>
               <p className="text-2xl font-bold text-primary">
                 Зажги сцену в стиле K-Pop!
@@ -82,11 +82,11 @@ const Index = () => {
                 Ритм сердца, страсть танца, стиль K-Pop!
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button size="lg" className="gradient-pink-purple text-white text-lg px-8 py-6 border-0">
+                <Button size="lg" className="gradient-pink-purple text-white text-lg px-8 py-6 border-0 kpop-glow animate-pulse-glow hover:scale-105 transition-transform">
                   Пробное занятие
                   <Icon name="ArrowRight" size={20} className="ml-2" />
                 </Button>
-                <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-2 border-primary">
+                <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-2 border-primary hover:bg-primary/10 hover:scale-105 transition-all">
                   <Icon name="Play" size={20} className="mr-2" />
                   Смотреть видео
                 </Button>
@@ -107,7 +107,7 @@ const Index = () => {
               </div>
             </div>
             <div className="relative animate-scale-in">
-              <div className="absolute inset-0 gradient-pink-purple opacity-20 blur-3xl rounded-full"></div>
+              <div className="absolute inset-0 gradient-pink-purple opacity-30 blur-3xl rounded-full animate-pulse-glow"></div>
               <img 
                 src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/a94be268-9cd4-484e-a433-5fd7d6bd93f0.jpg"
                 alt="K-Pop Dance Group"
@@ -118,11 +118,12 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10">
-        <div className="container mx-auto">
+      <section className="py-20 px-4 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 relative overflow-hidden">
+        <div className="absolute inset-0 shimmer pointer-events-none"></div>
+        <div className="container mx-auto relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h2 className="text-5xl font-black gradient-text">Почему K-POP танцы?</h2>
+              <h2 className="text-5xl font-black gradient-text kpop-text-shadow">Почему K-POP танцы?</h2>
               <p className="text-xl text-gray-700 leading-relaxed">
                 <span className="font-bold text-primary">K-POP</span> — это не просто танцы, это целая культура, которая захватила весь мир! 
                 Миллионы поклонников следят за каждым движением <span className="font-bold">BLACKPINK</span>, <span className="font-bold">BTS</span>, <span className="font-bold">AESPA</span> и других легендарных групп.
@@ -177,16 +178,20 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-white">
-        <div className="container mx-auto">
+      <section className="py-20 px-4 bg-white relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-10 left-10 w-64 h-64 bg-primary rounded-full blur-3xl"></div>
+          <div className="absolute bottom-10 right-10 w-64 h-64 bg-secondary rounded-full blur-3xl"></div>
+        </div>
+        <div className="container mx-auto relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-black mb-4 gradient-text">Dance Practice на наших занятиях</h2>
+            <h2 className="text-5xl font-black mb-4 gradient-text kpop-text-shadow">Dance Practice на наших занятиях</h2>
             <p className="text-xl text-gray-600">Изучай хореографию легендарных K-POP групп</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-2 border-primary/20 hover:border-primary transition-all hover:shadow-2xl hover:-translate-y-2">
+            <Card className="border-2 border-primary/20 hover:border-primary transition-all hover:shadow-2xl hover:-translate-y-2 neon-border kpop-glow">
               <CardHeader className="text-center">
-                <div className="w-20 h-20 mx-auto mb-4 rounded-full gradient-pink-purple flex items-center justify-center">
+                <div className="w-20 h-20 mx-auto mb-4 rounded-full gradient-pink-purple flex items-center justify-center kpop-glow animate-pulse-glow">
                   <Icon name="Music" className="text-white" size={40} />
                 </div>
                 <CardTitle className="text-3xl gradient-text mb-2">BLACKPINK</CardTitle>
