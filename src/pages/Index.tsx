@@ -387,8 +387,8 @@ const Index = () => {
             <Card className="border-2 border-secondary overflow-hidden hover:shadow-2xl transition-all hover:-translate-y-2 neon-border">
               <div className="relative h-80">
                 <img 
-                  src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/678ae7a6-472a-4ba3-9226-573f0cb4aff1.jpg"
-                  alt="Преподаватель K-POP"
+                  src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/af4470d4-8a17-4b57-a861-9ac07c79f532.jpg"
+                  alt="Сон Наын"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -416,8 +416,8 @@ const Index = () => {
             <Card className="border-2 border-accent overflow-hidden hover:shadow-2xl transition-all hover:-translate-y-2 neon-border">
               <div className="relative h-80">
                 <img 
-                  src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/2a53ba5f-9a10-4338-88c3-e8b84ffc3765.jpg"
-                  alt="Преподаватель K-POP"
+                  src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/ac538ca1-0a13-45d7-abcd-d17708b9081a.jpg"
+                  alt="Сириус"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
