@@ -177,6 +177,121 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20 px-4 bg-white">
+        <div className="container mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-black mb-4 gradient-text">Dance Practice на наших занятиях</h2>
+            <p className="text-xl text-gray-600">Изучай хореографию легендарных K-POP групп</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="border-2 border-primary/20 hover:border-primary transition-all hover:shadow-2xl hover:-translate-y-2">
+              <CardHeader className="text-center">
+                <div className="w-20 h-20 mx-auto mb-4 rounded-full gradient-pink-purple flex items-center justify-center">
+                  <Icon name="Music" className="text-white" size={40} />
+                </div>
+                <CardTitle className="text-3xl gradient-text mb-2">BLACKPINK</CardTitle>
+                <CardDescription className="text-base">Хиты: DDU-DU DDU-DU, How You Like That, Pink Venom</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-3">
+                  <li className="flex items-center gap-2">
+                    <Icon name="Check" className="text-primary" size={18} />
+                    <span>Мощная энергетика</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Icon name="Check" className="text-primary" size={18} />
+                    <span>Женственные движения</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Icon name="Check" className="text-primary" size={18} />
+                    <span>Iconic хореография</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-secondary/20 hover:border-secondary transition-all hover:shadow-2xl hover:-translate-y-2">
+              <CardHeader className="text-center">
+                <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-purple-600 to-blue-500 flex items-center justify-center">
+                  <Icon name="Flame" className="text-white" size={40} />
+                </div>
+                <CardTitle className="text-3xl gradient-text mb-2">BTS</CardTitle>
+                <CardDescription className="text-base">Хиты: Dynamite, Butter, ON</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-3">
+                  <li className="flex items-center gap-2">
+                    <Icon name="Check" className="text-secondary" size={18} />
+                    <span>Синхронность движений</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Icon name="Check" className="text-secondary" size={18} />
+                    <span>Сложная хореография</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Icon name="Check" className="text-secondary" size={18} />
+                    <span>Эмоциональность</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-accent/20 hover:border-accent transition-all hover:shadow-2xl hover:-translate-y-2">
+              <CardHeader className="text-center">
+                <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-cyan-400 to-purple-600 flex items-center justify-center">
+                  <Icon name="Sparkles" className="text-white" size={40} />
+                </div>
+                <CardTitle className="text-3xl gradient-text mb-2">AESPA</CardTitle>
+                <CardDescription className="text-base">Хиты: Next Level, Savage, Spicy</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-3">
+                  <li className="flex items-center gap-2">
+                    <Icon name="Check" className="text-cyan-500" size={18} />
+                    <span>Футуристичный стиль</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Icon name="Check" className="text-cyan-500" size={18} />
+                    <span>Резкие движения</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Icon name="Check" className="text-cyan-500" size={18} />
+                    <span>Современная хореография</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="text-center mt-12">
+            <Card className="max-w-3xl mx-auto bg-gradient-to-r from-primary/5 to-secondary/5 border-2 border-primary">
+              <CardContent className="pt-8 pb-8">
+                <Icon name="Trophy" className="mx-auto text-primary mb-4" size={48} />
+                <h3 className="text-2xl font-bold mb-4">На занятиях ты научишься:</h3>
+                <div className="grid md:grid-cols-2 gap-4 text-left">
+                  <div className="flex items-start gap-3">
+                    <Icon name="Star" className="text-primary mt-1" size={20} />
+                    <span>Повторять движения твоих любимых айдолов</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Icon name="Star" className="text-primary mt-1" size={20} />
+                    <span>Танцевать синхронно в группе</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Icon name="Star" className="text-primary mt-1" size={20} />
+                    <span>Создавать собственные dance covers</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Icon name="Star" className="text-primary mt-1" size={20} />
+                    <span>Выступать на сцене с командой</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       <section id="schedule" className="py-20 px-4 bg-white/50 backdrop-blur-sm">
         <div className="container mx-auto">
           <div className="text-center mb-16">
