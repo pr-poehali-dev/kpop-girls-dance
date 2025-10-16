@@ -118,6 +118,65 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20 px-4 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10">
+        <div className="container mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <h2 className="text-5xl font-black gradient-text">Почему K-POP танцы?</h2>
+              <p className="text-xl text-gray-700 leading-relaxed">
+                <span className="font-bold text-primary">K-POP</span> — это не просто танцы, это целая культура, которая захватила весь мир! 
+                Миллионы поклонников следят за каждым движением <span className="font-bold">BLACKPINK</span>, <span className="font-bold">BTS</span>, <span className="font-bold">AESPA</span> и других легендарных групп.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Сегодня K-POP танцы — один из самых популярных стилей в мире! Каждый день миллионы видео с хореографией собирают миллиарды просмотров. 
+                Это синхронность, энергия, харизма и невероятная пластика.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+                    <Icon name="TrendingUp" className="text-white" size={18} />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg mb-1">Мировой тренд</h3>
+                    <p className="text-gray-600">K-POP покорил TikTok, Instagram и YouTube. Будь в центре трендов!</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-full bg-secondary flex items-center justify-center flex-shrink-0">
+                    <Icon name="Heart" className="text-white" size={18} />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg mb-1">Энергия и стиль</h3>
+                    <p className="text-gray-600">Яркая хореография, которая сочетает мощь, грацию и харизму айдолов</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-full bg-accent flex items-center justify-center flex-shrink-0">
+                    <Icon name="Users" className="text-gray-900" size={18} />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg mb-1">Глобальное сообщество</h3>
+                    <p className="text-gray-600">Присоединяйся к миллионам фанатов по всему миру!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="absolute inset-0 gradient-pink-purple opacity-20 blur-3xl rounded-full"></div>
+              <img 
+                src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/96d08840-0ddc-4878-b641-fffa41e3ae77.jpg"
+                alt="K-Pop Idols Performance"
+                className="relative rounded-3xl shadow-2xl w-full"
+              />
+              <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-6 max-w-xs">
+                <p className="text-4xl font-black gradient-text mb-2">1B+</p>
+                <p className="text-sm text-gray-600">просмотров K-POP контента ежемесячно</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="schedule" className="py-20 px-4 bg-white/50 backdrop-blur-sm">
         <div className="container mx-auto">
           <div className="text-center mb-16">
