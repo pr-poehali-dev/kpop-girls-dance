@@ -175,7 +175,7 @@ const Index = () => {
               <CardContent className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Icon name="Award" className="text-primary" size={24} />
-                  <span>Мастер спорта по современным танцам</span>
+                  <span>Мастер  по K-POP танцам</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Icon name="Music" className="text-primary" size={24} />
