@@ -37,10 +37,12 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-cyan-50">
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full gradient-pink-purple flex items-center justify-center">
-              <Icon name="Sparkles" size={24} className="text-white" />
-            </div>
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/files/f4d986e4-8ffe-4745-bd23-95ccf4253271.png" 
+              alt="AYA Logo" 
+              className="w-12 h-12 object-contain"
+            />
             <span className="text-2xl font-bold gradient-text">K-POP GIRLS DANCE</span>
           </div>
           <div className="hidden md:flex gap-6">
@@ -61,6 +63,13 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-8 animate-fade-in">
+              <div className="flex items-center gap-6 mb-6">
+                <img 
+                  src="https://cdn.poehali.dev/files/f4d986e4-8ffe-4745-bd23-95ccf4253271.png" 
+                  alt="AYA Logo" 
+                  className="w-32 h-32 object-contain"
+                />
+              </div>
               <h1 className="text-6xl md:text-7xl font-black leading-tight">
                 <span className="gradient-text">K-POP GIRLS</span>
                 <br />
