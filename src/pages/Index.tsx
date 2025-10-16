@@ -66,6 +66,7 @@ const Index = () => {
             <a href="#home" className="text-sm font-medium hover:text-primary transition-colors">Главная</a>
             <a href="#schedule" className="text-sm font-medium hover:text-primary transition-colors">Расписание</a>
             <a href="#teachers" className="text-sm font-medium hover:text-primary transition-colors">Преподаватели</a>
+            <a href="#achievements" className="text-sm font-medium hover:text-primary transition-colors">Достижения</a>
             <a href="#price" className="text-sm font-medium hover:text-primary transition-colors">Стоимость</a>
             <a href="#gallery" className="text-sm font-medium hover:text-primary transition-colors">Галерея</a>
             <a href="#contacts" className="text-sm font-medium hover:text-primary transition-colors">Контакты</a>
@@ -441,6 +442,152 @@ const Index = () => {
                 </div>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      <section id="achievements" className="py-20 px-4 bg-gradient-to-br from-yellow-50 via-orange-50 to-pink-50 relative overflow-hidden">
+        <div className="absolute inset-0 shimmer pointer-events-none"></div>
+        <div className="container mx-auto relative z-10">
+          <div className="text-center mb-16">
+            <div className="inline-block mb-4">
+              <Icon name="Trophy" className="text-yellow-500 animate-bounce" size={64} />
+            </div>
+            <h2 className="text-6xl font-black mb-4 gradient-text kpop-text-shadow">Наши достижения и победы!</h2>
+            <p className="text-2xl text-gray-700 font-bold">Мы гордимся успехами наших учениц! 🏆</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            <Card className="border-4 border-yellow-400 bg-gradient-to-br from-yellow-100 to-orange-100 hover:shadow-2xl transition-all hover:-translate-y-2 kpop-glow">
+              <CardContent className="pt-8 text-center">
+                <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-r from-yellow-400 to-orange-400 flex items-center justify-center animate-pulse-glow">
+                  <Icon name="Trophy" className="text-white" size={40} />
+                </div>
+                <div className="text-5xl font-black gradient-text mb-2">15+</div>
+                <p className="text-lg font-semibold text-gray-700">Побед в конкурсах</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-4 border-pink-400 bg-gradient-to-br from-pink-100 to-purple-100 hover:shadow-2xl transition-all hover:-translate-y-2 kpop-glow">
+              <CardContent className="pt-8 text-center">
+                <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-r from-pink-400 to-purple-400 flex items-center justify-center animate-pulse-glow">
+                  <Icon name="Award" className="text-white" size={40} />
+                </div>
+                <div className="text-5xl font-black gradient-text mb-2">30+</div>
+                <p className="text-lg font-semibold text-gray-700">Дипломов и наград</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-4 border-blue-400 bg-gradient-to-br from-blue-100 to-cyan-100 hover:shadow-2xl transition-all hover:-translate-y-2 kpop-glow">
+              <CardContent className="pt-8 text-center">
+                <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-r from-blue-400 to-cyan-400 flex items-center justify-center animate-pulse-glow">
+                  <Icon name="Star" className="text-white" size={40} />
+                </div>
+                <div className="text-5xl font-black gradient-text mb-2">50+</div>
+                <p className="text-lg font-semibold text-gray-700">Выступлений на сцене</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-4 border-green-400 bg-gradient-to-br from-green-100 to-emerald-100 hover:shadow-2xl transition-all hover:-translate-y-2 kpop-glow">
+              <CardContent className="pt-8 text-center">
+                <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-r from-green-400 to-emerald-400 flex items-center justify-center animate-pulse-glow">
+                  <Icon name="Users" className="text-white" size={40} />
+                </div>
+                <div className="text-5xl font-black gradient-text mb-2">200+</div>
+                <p className="text-lg font-semibold text-gray-700">Счастливых выпускниц</p>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <Card className="border-4 border-primary neon-border overflow-hidden hover:shadow-2xl transition-all">
+              <div className="relative h-64">
+                <img 
+                  src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/af5d4e8d-6980-49a3-a283-ece138179435.jpg"
+                  alt="Награды"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-2xl font-black text-white mb-2">🏆 Кубки и медали</h3>
+                  <p className="text-white/90">Победы в крупнейших турнирах</p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="border-4 border-secondary neon-border overflow-hidden hover:shadow-2xl transition-all">
+              <div className="relative h-64">
+                <img 
+                  src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/936caadd-40a8-4df0-a436-04607ed6613d.jpg"
+                  alt="Выступления"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-2xl font-black text-white mb-2">✨ Большие сцены</h3>
+                  <p className="text-white/90">Выступления перед тысячами зрителей</p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="border-4 border-accent neon-border overflow-hidden hover:shadow-2xl transition-all">
+              <div className="relative h-64">
+                <img 
+                  src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/424519f4-738d-4aca-80ee-a4afe6c01ea7.jpg"
+                  alt="Дипломы"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-2xl font-black text-white mb-2">📜 Дипломы</h3>
+                  <p className="text-white/90">Сертификаты престижных конкурсов</p>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          <div className="bg-white rounded-3xl p-8 shadow-2xl border-4 border-primary/30">
+            <h3 className="text-3xl font-black gradient-text text-center mb-8">🌟 Наши главные победы 2024</h3>
+            <div className="space-y-4">
+              <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl">
+                <Icon name="Medal" className="text-yellow-500 flex-shrink-0 mt-1" size={32} />
+                <div>
+                  <h4 className="text-xl font-bold mb-1">🥇 1 место - "K-POP Battle Yakutsk 2024"</h4>
+                  <p className="text-gray-600">Лучшая групповая хореография BLACKPINK - "Pink Venom"</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-pink-50 to-purple-50 rounded-xl">
+                <Icon name="Medal" className="text-pink-500 flex-shrink-0 mt-1" size={32} />
+                <div>
+                  <h4 className="text-xl font-bold mb-1">🥇 1 место - "Dance Star Russia"</h4>
+                  <p className="text-gray-600">Гран-при в номинации K-POP Dance Cover</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl">
+                <Icon name="Medal" className="text-blue-500 flex-shrink-0 mt-1" size={32} />
+                <div>
+                  <h4 className="text-xl font-bold mb-1">🥈 2 место - "Asia Dance Championship"</h4>
+                  <p className="text-gray-600">Международный конкурс в Южной Корее</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl">
+                <Icon name="Trophy" className="text-green-500 flex-shrink-0 mt-1" size={32} />
+                <div>
+                  <h4 className="text-xl font-bold mb-1">🏆 Специальный приз - "Best Synchronization"</h4>
+                  <p className="text-gray-600">За лучшую синхронность на "Moscow K-POP Festival"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <Button size="lg" className="gradient-pink-purple text-white text-xl px-12 py-8 border-0 kpop-glow">
+              Стать частью побед! 🚀
+              <Icon name="Sparkles" size={24} className="ml-2" />
+            </Button>
           </div>
         </div>
       </section>
