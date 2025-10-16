@@ -15,8 +15,25 @@ const Index = () => {
     message: ""
   });
 
+  const [applications, setApplications] = useState([
+    { id: 1, name: "Иванова Мария", phone: "+7 (999) 123-45-67", date: "15.10.2024", status: "Новая" },
+    { id: 2, name: "Петрова Анна", phone: "+7 (999) 234-56-78", date: "14.10.2024", status: "Обработана" },
+    { id: 3, name: "Сидорова Елена", phone: "+7 (999) 345-67-89", date: "14.10.2024", status: "Новая" },
+  ]);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    const newApp = {
+      id: applications.length + 1,
+      name: formData.name,
+      phone: formData.phone,
+      date: new Date().toLocaleDateString('ru-RU'),
+      status: "Новая"
+    };
+    
+    setApplications([newApp, ...applications]);
+    
     toast({
       title: "Заявка отправлена! 🎉",
       description: "Мы свяжемся с вами в ближайшее время",
@@ -497,6 +514,40 @@ const Index = () => {
                     <Icon name="Send" size={20} className="ml-2" />
                   </Button>
                 </form>
+
+                <div className="mt-12 pt-8 border-t">
+                  <h3 className="text-2xl font-bold text-center mb-6 gradient-text">Полученные заявки</h3>
+                  <div className="overflow-x-auto">
+                    <table className="w-full">
+                      <thead>
+                        <tr className="border-b-2 border-primary/20">
+                          <th className="text-left py-3 px-4 font-bold">Имя</th>
+                          <th className="text-left py-3 px-4 font-bold">Телефон</th>
+                          <th className="text-left py-3 px-4 font-bold">Дата</th>
+                          <th className="text-left py-3 px-4 font-bold">Статус</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {applications.map((app) => (
+                          <tr key={app.id} className="border-b hover:bg-primary/5 transition-colors">
+                            <td className="py-3 px-4">{app.name}</td>
+                            <td className="py-3 px-4">{app.phone}</td>
+                            <td className="py-3 px-4">{app.date}</td>
+                            <td className="py-3 px-4">
+                              <span className={`px-3 py-1 rounded-full text-sm ${
+                                app.status === 'Новая' 
+                                  ? 'bg-green-100 text-green-700' 
+                                  : 'bg-gray-100 text-gray-700'
+                              }`}>
+                                {app.status}
+                              </span>
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
 
                 <div className="mt-12 pt-8 border-t space-y-4">
                   <h3 className="text-2xl font-bold text-center mb-6">Контакты</h3>
