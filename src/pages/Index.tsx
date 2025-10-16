@@ -394,7 +394,7 @@ const Index = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               </div>
               <CardHeader>
-                <CardTitle className="text-2xl gradient-text">Ким Мин Джи</CardTitle>
+                <CardTitle className="text-2xl gradient-text">Сон Наын</CardTitle>
                 <CardDescription className="text-base">Хореограф K-POP направления</CardDescription>
               </CardHeader>
               <CardContent className="space-y-3">
@@ -423,7 +423,7 @@ const Index = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               </div>
               <CardHeader>
-                <CardTitle className="text-2xl gradient-text">Пак Со Ён</CardTitle>
+                <CardTitle className="text-2xl gradient-text">Сириус</CardTitle>
                 <CardDescription className="text-base">Хореограф-постановщик</CardDescription>
               </CardHeader>
               <CardContent className="space-y-3">
