@@ -463,7 +463,7 @@ const Index = () => {
                 <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-r from-yellow-400 to-orange-400 flex items-center justify-center animate-pulse-glow">
                   <Icon name="Trophy" className="text-white" size={40} />
                 </div>
-                <div className="text-5xl font-black gradient-text mb-2">15+</div>
+                <div className="text-5xl font-black gradient-text mb-2">10+</div>
                 <p className="text-lg font-semibold text-gray-700">Побед в конкурсах</p>
               </CardContent>
             </Card>
@@ -493,7 +493,7 @@ const Index = () => {
                 <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-r from-green-400 to-emerald-400 flex items-center justify-center animate-pulse-glow">
                   <Icon name="Users" className="text-white" size={40} />
                 </div>
-                <div className="text-5xl font-black gradient-text mb-2">200+</div>
+                <div className="text-5xl font-black gradient-text mb-2">30+</div>
                 <p className="text-lg font-semibold text-gray-700">Счастливых выпускниц</p>
               </CardContent>
             </Card>
