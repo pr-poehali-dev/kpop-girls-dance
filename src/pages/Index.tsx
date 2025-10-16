@@ -109,7 +109,7 @@ const Index = () => {
             <div className="relative animate-scale-in">
               <div className="absolute inset-0 gradient-pink-purple opacity-20 blur-3xl rounded-full"></div>
               <img 
-                src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/0550b66a-bf6a-4886-bfe7-56c53fe0412e.jpg"
+                src="https://cdn.poehali.dev/projects/5c52f61f-dde1-4751-a9fb-6c60b1f9bb35/files/f5cda2ae-9270-4b8e-8b07-ef12682b1abc.jpg"
                 alt="K-Pop Dance Group"
                 className="relative rounded-3xl shadow-2xl w-full"
               />
